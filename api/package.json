@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js" 
+  },
+  "_moduleAliases": {
+    "@root": "."
+  },
+  "keywords": [],
+  "author": "Arthur P. Braga",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "router": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
