@@ -4,7 +4,7 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      database: "favoritesMovies",
+      database: "rpgWorld",
       user: "root",
       password: "135531AA"
     },

@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js" 
+    "start": "node src/server.js"
   },
   "_moduleAliases": {
     "@root": "."
@@ -14,7 +14,7 @@
   "author": "Arthur P. Braga",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "knex": "^0.21.1",
     "module-alias": "^2.2.2",
