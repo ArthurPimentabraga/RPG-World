@@ -8,5 +8,6 @@ const UserController = require('./controllers/UserController')
 //User
 routes.get('/user', UserController.show);
 routes.post('/user', UserController.create);
+routes.post('/user/login', UserController.login);
 
 module.exports = routes;
